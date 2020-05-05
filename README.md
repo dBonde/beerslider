@@ -106,7 +106,7 @@ or:
       new BeerSlider(this, options);
     });
   };
-  $('.beer-slider').each( (function( index, el ) {
+  $('.beer-slider').each(function( index, el ) {
     $(el).BeerSlider({start: $(el).data('beer-start')})
   });
 </script>
